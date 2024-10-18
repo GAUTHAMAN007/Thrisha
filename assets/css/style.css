@@ -19705,3 +19705,39 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.hamberger-menu svg {
+  width: 30px; /* Adjust the size as necessary */
+  height: 30px;
+  stroke: #ff0057; /* Use the pink color you see in the image */
+  cursor: pointer;
+}
+
+.hamberger-menu {
+  display: block;
+  text-align: right; /* To align it to the right side */
+}
+
+.hamberger-menu {
+  padding: 10px 20px;
+}
+
+@media (max-width: 1199px) {
+  .hamberger-menu {
+      display: block;
+  }
+
+  #sideNav {
+      display: none; /* Hide the full nav */
+  }
+}
+
+@media (min-width: 1200px) {
+  .hamberger-menu {
+      display: none; /* Hide the hamburger icon on larger screens */
+  }
+
+  #sideNav {
+      display: block;
+  }
+}
